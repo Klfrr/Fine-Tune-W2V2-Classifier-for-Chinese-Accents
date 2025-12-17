@@ -4,8 +4,8 @@ Note: This is a JuPyter Google Colab Notebook that was run using A100 GPU with h
 
 ## Instructions
 1. Connect to the A100 GPU
-2. Download the SpeechAccentArchive.zip file containing the 210 speech samples.
-3. Run cells in order until 
+2. Download the SpeechAccentArchive.zip file containing the 210 speech samples. Git LFS is recommended, although not necessary
+3. Run cells in order until getting to "Uploading SpeechAccentArchive.zip"
 4. If running the model more than once, use the mount drive cell, otherwise upload the .zip file using the file picker
 5. Unzip once the upload is complete.
 6. Scroll down to "Fine Tuning Wav2Vec2" and run cells underneath
