@@ -5,7 +5,7 @@ The model uses the existing open-source classifier Wav2Vec2 from Huggingface, wh
 and fine-tunes it for 4 Chinese accents.
 
 ## Installation/Accessing Notebook
-> Note: This is a JuPyter Google Colab Notebook that was run using A100 GPU with high memory load enabled
+> Note: This is a Jupyter Google Colab Notebook that was run using A100 GPU with high memory load enabled
 1. When on the page with the .ipynb file, replace the "github.com" in the link with "nbsanity.com"
 2. Example at https://nbsanity.com
 
@@ -15,7 +15,13 @@ and fine-tunes it for 4 Chinese accents.
 3. Run cells in order until getting to "Uploading SpeechAccentArchive.zip"
 4. If running the model more than once, use the mount drive cell, otherwise upload the .zip file using the file picker
 5. Unzip once the upload is complete.
-6. Scroll down to "Fine Tuning Wav2Vec2" and run cells underneath it.
+6. Navigate (Use the Table of Contents or scroll) to "Fine Tuning Wav2Vec2" and run cells underneath it in order.
+
+## Optional: Evaluating Wav2Vec2
+> Note: This part of the notebook does not require a high amount of memory, so any runtime will suffice
+1. Navigate to "Evaluate Original Wav2Vec2"
+2. Run the cells underneath in order
+
 
 ## Citation:
 BibTeX
